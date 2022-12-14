@@ -44,6 +44,7 @@ function App() {
           </div>
         ))}
       </section>
+      <p className='footer'>Proyecto React - Roadmap Frontend <span>RUTA N</span></p>
     </section>
   );
 }

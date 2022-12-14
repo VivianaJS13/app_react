@@ -36,6 +36,7 @@
     transform: rotate(360deg);
   }
 } */
+
 .main{
   display: flex;
   flex-direction: column;
@@ -98,7 +99,7 @@
 .button{
   width: 400px;
   height: 40px;
-  background-color: blueviolet;
+  background-color: rgb(164, 87, 236);
   color: white;
   font-size: 15px;
   padding: 4px;
@@ -107,4 +108,14 @@
   border-radius: 8px;
   font-weight: bold;
   margin-bottom: 12px;
+}
+.button:hover{
+  cursor: pointer;
+}
+.footer{
+  font-size: 18px;
+  font-weight: 300;
+}
+.footer span{
+  font-weight: 600;
 }
